@@ -1,11 +1,10 @@
-"Bitmaker Labs".class
-12.class
-nil.to_s
-nil.inspect
-"5.0".to_i
+puts "Please enter a temperature in F"
+f = gets.chomp.to_i
 
-def method_name
-	1 + 1
+def f_to_c(f)
+	return((f-32)*5/9)
 end
 
-t
+puts f_to_c(f)
+
+
